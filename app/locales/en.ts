@@ -62,7 +62,7 @@ const en: LocaleType = {
         dark: "Dark Theme",
       },
       Prompt: "Prompts",
-      Masks: "Masks",
+      Masks: "Personas",
       Clear: "Clear Context",
       Settings: "Settings",
       UploadImage: "Upload Images",
@@ -79,7 +79,7 @@ const en: LocaleType = {
     Send: "Send",
     Config: {
       Reset: "Reset to Default",
-      SaveAs: "Save as Mask",
+      SaveAs: "Save as a Persona",
     },
     IsContext: "Contextual Prompt",
   },
@@ -95,8 +95,8 @@ const en: LocaleType = {
       SubTitle: "Markdown or PNG Image",
     },
     IncludeContext: {
-      Title: "Including Context",
-      SubTitle: "Export context prompts in mask or not",
+      Title: "Include Persona Context",
+      SubTitle: "Export context prompts from chosen Persona",
     },
     Steps: {
       Select: "Select",
@@ -228,12 +228,12 @@ const en: LocaleType = {
     },
     Mask: {
       Splash: {
-        Title: "Mask Splash Screen",
-        SubTitle: "Show a mask splash screen before starting new chat",
+        Title: "Personas Splash Screen",
+        SubTitle: "Show a persona splash screen before starting new chat",
       },
       Builtin: {
-        Title: "Hide Builtin Masks",
-        SubTitle: "Hide builtin masks in mask list",
+        Title: "Hide Builtin Personas",
+        SubTitle: "Hide builtin personas in the persona list",
       },
     },
     Prompt: {
@@ -416,11 +416,11 @@ const en: LocaleType = {
     Sysmessage: "You are an assistant that",
   },
   Mask: {
-    Name: "Mask",
+    Name: "Persona",
     Page: {
       Title: "Prompt Template",
       SubTitle: (count: number) => `${count} prompt templates`,
-      Search: "Search Templates",
+      Search: "Search Personas",
       Create: "Create",
     },
     Item: {
@@ -433,13 +433,13 @@ const en: LocaleType = {
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `Edit Prompt Template ${readonly ? "(readonly)" : ""}`,
+        `Edit Persona Template ${readonly ? "(readonly)" : ""}`,
       Download: "Download",
       Clone: "Clone",
     },
     Config: {
-      Avatar: "Bot Avatar",
-      Name: "Bot Name",
+      Avatar: "Persona Avatar",
+      Name: "Persona Name",
       Sync: {
         Title: "Use Global Config",
         SubTitle: "Use global config in this chat",
@@ -459,8 +459,8 @@ const en: LocaleType = {
   NewChat: {
     Return: "Return",
     Skip: "Just Start",
-    Title: "Pick a Mask",
-    SubTitle: "Chat with the Soul behind the Mask",
+    Title: "Pick a Persona",
+    SubTitle: "Choose your perfect alter-ego",
     More: "Find More",
     NotShow: "Never Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
