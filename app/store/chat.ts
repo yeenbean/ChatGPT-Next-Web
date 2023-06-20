@@ -672,7 +672,7 @@ export const useChatStore = createPersistStore(
 
       clearAllData() {
         localStorage.clear();
-        location.reload();
+        location.assign("/");
       },
     };
 
