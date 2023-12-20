@@ -60,6 +60,7 @@ highlighting, and more.
 - 🚀 v2.8: Added additional support for more clients.
 - 🚀 v2.9.11: Integrated Azure AI endpoint.
 - 🚀 v2.9.12: UI bugfixes and other housekeeping items.
+- 🚀 v2.9.13: Enhanced streaming, new localizations, fixes, and UI/UX improvements.
 ## FAQ
 
 [简体中文 > 常见问题](./docs/faq-cn.md)
@@ -116,7 +117,7 @@ Access password, separated by comma.
 
 ### `OPENAI_API_KEY` (required)
 
-Your openai api key.
+Your openai api key, join multiple api keys with comma.
 
 ### `BASE_URL` (optional)
 
@@ -171,9 +172,11 @@ If you want to disable parse settings from url, set this to 1.
 ### `CUSTOM_MODELS` (optional)
 
 > Default: Empty
-> Example: `+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview:gpt-4-turbo` means add `llama, claude-2` to model list, and remove `gpt-3.5-turbo` from list, and display `gpt-4-1106-preview` as `gpt-4-turbo`.
+> Example: `+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` means add `llama, claude-2` to model list, and remove `gpt-3.5-turbo` from list, and display `gpt-4-1106-preview` as `gpt-4-turbo`.
 
-To control custom models, use `+` to add a custom model, use `-` to hide a model, use `name:displayName` to customize model name, separated by comma.
+To control custom models, use `+` to add a custom model, use `-` to hide a model, use `name=displayName` to customize model name, separated by comma.
+
+User `-all` to disable all default models, `+all` to enable all default models.
 
 ## Requirements
 
@@ -296,6 +299,9 @@ If you want to add a new translation, read this [document](./docs/translation.md
 [@piksonGit](https://github.com/piksonGit)
 [@ouyangzhiping](https://github.com/ouyangzhiping)
 [@wenjiavv](https://github.com/wenjiavv)
+[@LeXwDeX](https://github.com/LeXwDeX)
+[@Licoy](https://github.com/Licoy)
+[@shangmin2009](https://github.com/shangmin2009)
 
 ### Contributor
 
