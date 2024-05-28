@@ -17,15 +17,10 @@ ChatGPT Next Web, now with a sprinkle of yeen.
 [Web App](https://gpt.yeenimal.com) / [Desktop App](https://github.com/yeenbean/ChatGPT-Next-Web/releases) / [Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Support Yidadaa](https://www.buymeacoffee.com/yidadaa)
 
 [web-url]: https://gpt.yeenimal.com
-   
 [download-url]: https://github.com/yeenbean/ChatGPT-Next-Web/releases
-
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=firefox&logoColor=white
-
 [Windows-image]: https://img.shields.io/badge/Windows-blue?logo=windows11&logoColor=white
-
 [MacOS-image]: https://img.shields.io/badge/MacOS-black?logo=apple&logoColor=white
-
 [Linux-image]: https://img.shields.io/badge/Linux-333?logo=linux&logoColor=white
 
 ![cover](./docs/images/cover.png)
@@ -60,12 +55,13 @@ highlighting, and more.
 
 ## What's New
 
-- 🚀 v2.10.1 support Google Gemini Pro model.
-- 🚀 v2.9.11 you can use azure endpoint now.
-- 🚀 v2.8 now we have a client that runs across all platforms!
-- 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
 - 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
-
+- 🚀 v2.7: Added ability to easily share conversations.
+- 🚀 v2.8: Added additional support for more clients.
+- 🚀 v2.9.11: Integrated Azure AI endpoint.
+- 🚀 v2.9.12: UI bugfixes and other housekeeping items.
+- 🚀 v2.9.13: Enhanced streaming, new localizations, fixes, and UI/UX improvements.
+- 🚀 v2.10.1: Added support for Google Gemini Pro model.
 ## FAQ
 
 [简体中文 > 常见问题](./docs/faq-cn.md)

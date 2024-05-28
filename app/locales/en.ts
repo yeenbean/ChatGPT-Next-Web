@@ -276,8 +276,8 @@ const en: LocaleType = {
     Access: {
       AccessCode: {
         Title: "Access Code",
-        SubTitle: "Access control Enabled",
-        Placeholder: "Enter Code",
+        SubTitle: "Access control enabled",
+        Placeholder: "Enter code",
       },
       CustomEndpoint: {
         Title: "Custom Endpoint",
@@ -290,8 +290,8 @@ const en: LocaleType = {
       OpenAI: {
         ApiKey: {
           Title: "OpenAI API Key",
-          SubTitle: "User custom OpenAI Api Key",
-          Placeholder: "sk-xxx",
+          SubTitle: "User custom OpenAI API key",
+          Placeholder: "sk-xxx...",
         },
 
         Endpoint: {
@@ -301,9 +301,9 @@ const en: LocaleType = {
       },
       Azure: {
         ApiKey: {
-          Title: "Azure Api Key",
-          SubTitle: "Check your api key from Azure console",
-          Placeholder: "Azure Api Key",
+          Title: "Azure API Key",
+          SubTitle: "Get your API key from the Azure console",
+          Placeholder: "Azure API key",
         },
 
         Endpoint: {
@@ -312,8 +312,8 @@ const en: LocaleType = {
         },
 
         ApiVerion: {
-          Title: "Azure Api Version",
-          SubTitle: "Check your api version from azure console",
+          Title: "Azure API Version",
+          SubTitle: "Retrieve your API version from the Azure console",
         },
       },
       Anthropic: {
