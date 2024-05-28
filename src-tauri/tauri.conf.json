@@ -8,7 +8,8 @@
     "withGlobalTauri": true
   },
   "package": {
-    "version": "23.12.0"
+    "productName": "chatgpt-next-web-yeening",
+    "version": "24.5.0"
   },
   "tauri": {
     "allowlist": {
@@ -76,7 +77,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "ChatGPT Next Web App",
+      "shortDescription": "NextChat App",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -85,7 +86,8 @@
       }
     },
     "security": {
-      "csp": null
+      "csp": null,
+      "dangerousUseHttpScheme": true
     },
     "updater": {
       "active": true,
@@ -103,7 +105,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "ChatGPT Next Web[y]",
+        "title": "NextChat[y]",
         "width": 960,
         "hiddenTitle": true,
         "titleBarStyle": "Overlay"

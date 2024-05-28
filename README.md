@@ -3,9 +3,9 @@ do *not* use this for your production environment, especially if I stop
 maintaining this fork! Instead, [check out the official repository](https://github.com/Yidadaa/ChatGPT-Next-Web).
 
 <div align="center">
-<img src="./docs/images/icon.svg" alt="icon"/>
+<img src="./docs/images/head-cover.png" alt="icon"/>
 
-<h1 align="center">ChatGPT Next Web</h1>
+<h1 align="center">NextChat (ChatGPT Next Web)</h1>
 
 ChatGPT Next Web, now with a sprinkle of yeen.
 
@@ -61,6 +61,7 @@ highlighting, and more.
 - 🚀 v2.9.11: Integrated Azure AI endpoint.
 - 🚀 v2.9.12: UI bugfixes and other housekeeping items.
 - 🚀 v2.9.13: Enhanced streaming, new localizations, fixes, and UI/UX improvements.
+- 🚀 v2.10.1: Added support for Google Gemini Pro model.
 ## FAQ
 
 [简体中文 > 常见问题](./docs/faq-cn.md)
@@ -145,6 +146,26 @@ Azure Api Key.
 
 Azure Api Version, find it at [Azure Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
 
+### `GOOGLE_API_KEY` (optional)
+
+Google Gemini Pro Api Key.
+
+### `GOOGLE_URL` (optional)
+
+Google Gemini Pro Api Url.
+
+### `ANTHROPIC_API_KEY` (optional)
+
+anthropic claude Api Key.
+
+### `ANTHROPIC_API_VERSION` (optional)
+
+anthropic claude Api version.
+
+### `ANTHROPIC_URL` (optional)
+
+anthropic claude Api Url.
+
 ### `HIDE_USER_API_KEY` (optional)
 
 > Default: Empty
@@ -161,7 +182,7 @@ If you do not want users to use GPT-4, set this value to 1.
 
 > Default: Empty
 
-If you do want users to query balance, set this value to 1, or you should set it to 0.
+If you do want users to query balance, set this value to 1.
 
 ### `DISABLE_FAST_LINK` (optional)
 
@@ -177,6 +198,13 @@ If you want to disable parse settings from url, set this to 1.
 To control custom models, use `+` to add a custom model, use `-` to hide a model, use `name=displayName` to customize model name, separated by comma.
 
 User `-all` to disable all default models, `+all` to enable all default models.
+
+### `WHITE_WEBDEV_ENDPOINTS` (可选)
+
+You can use this option if you want to increase the number of webdav service addresses you are allowed to access, as required by the format：
+- Each address must be a complete endpoint 
+> `https://xxxx/yyy`
+- Multiple addresses are connected by ', '
 
 ## Requirements
 
@@ -303,9 +331,11 @@ If you want to add a new translation, read this [document](./docs/translation.md
 [@Licoy](https://github.com/Licoy)
 [@shangmin2009](https://github.com/shangmin2009)
 
-### Contributor
+### Contributors
 
-[Contributors](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
+<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
+</a>
 
 ## LICENSE
 
